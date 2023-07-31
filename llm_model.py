@@ -11,7 +11,6 @@ except:
 
 
 def generate_response(prompt: str) -> dict:
-    # Your LLM model code here
     try:
         response = llm(prompt)
         return {"prompt_response": response,
